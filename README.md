@@ -41,8 +41,8 @@ $ minica -domains the-server
 5. Copy certs to client and server directories:
 ```
 $ cd mtls/ca
-$ cp the-client/* ../client
-$ cp the-server/* ../server
+$ cp the-client/*.pem ../client
+$ cp the-server/*.pem ../server
 ```
 
 #### Running the example:
